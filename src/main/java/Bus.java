@@ -19,4 +19,12 @@ public class Bus {
     public int getCapacity() {
         return this.capacity;
     }
+
+    public void addPassenger(Person person) {
+        this.passengers.add(person);
+    }
+
+    public int getPassengers() {
+        return this.passengers.size();
+    }
 }
