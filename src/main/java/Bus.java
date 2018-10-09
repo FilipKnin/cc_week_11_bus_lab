@@ -30,4 +30,9 @@ public class Bus {
     public int getPassengers() {
         return this.passengers.size();
     }
+
+
+    public void removePassenger() {
+        this.passengers.remove(0);
+    }
 }
