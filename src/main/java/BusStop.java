@@ -12,4 +12,8 @@ public class BusStop {
     public String getName() {
         return this.name;
     }
+
+    public int getQueue() {
+        return this.queue.size();
+    }
 }

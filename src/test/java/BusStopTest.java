@@ -20,4 +20,9 @@ public class BusStopTest {
         assertEquals("name", busStop.getName());
     }
 
+    @Test
+    public void hasQueue() {
+        assertEquals(0, busStop.getQueue());
+    }
+
 }
